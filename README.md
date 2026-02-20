@@ -1,4 +1,3 @@
-Below is a **README.md styled exactly like the format you shared**, but tailored for your **Python Basic Practice Project**. You can paste this directly into GitHub.
 
 ---
 
