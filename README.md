@@ -21,7 +21,7 @@ It focuses on **core Python concepts**, problem-solving, and coding discipline e
 
 ### **1. Python**
 
-* Core programming language used for practice.
+* Core programming language used for practice.....
 * Focus on syntax, logic building, and scripting fundamentals.
 * Foundation for automation frameworks and backend scripting.
 
