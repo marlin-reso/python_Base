@@ -11,9 +11,12 @@ for i in range(1, 6):          # controls rows
         print("*", end="")
     print()                    # move to next line
 
-
-
-
+'''
+   *
+  **
+ ***
+****
+'''
 
 
 def printinLoadingDots():

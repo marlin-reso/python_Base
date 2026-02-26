@@ -1,8 +1,16 @@
-'''
 
-27️⃣ Count frequency of characters in a string.
-28️⃣ Remove spaces from a sentence.
-'''
+# List Literal = [ ]
+# Dictonary Literal = { }
+# tuple = ( )
+
+
+
+def rmSpacees(str):
+    newStr = str.replace(" ","")
+    return newStr
+#rmSpacees("hello world")
+
+
 def countFrequncyOfChar():
     text = "hello world"
     frequency = {}
@@ -12,7 +20,19 @@ def countFrequncyOfChar():
         else:
             frequency[char] =1
     print(frequency)
-countFrequncyOfChar()
+#countFrequncyOfChar()
+
+
+def countChar():
+    text = input("Enter the text : ")
+    frequency = {}
+    for char in text:
+        if char in frequency:
+            frequency[char] +=1
+        else:
+            frequency[char] =1
+    print(frequency)
+countChar()
 
 def checkPalindrome(str):
     if str == str[::-1]:

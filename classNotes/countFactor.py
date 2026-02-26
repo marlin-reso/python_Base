@@ -25,6 +25,8 @@ def strongNumber():
         for i in range (1,digit):
             sum = sum + sum*i
 
+            
+
 
 
 
