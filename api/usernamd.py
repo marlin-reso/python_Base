@@ -7,8 +7,9 @@ def validateLogin(username, password):
 
     return False
 
+login_successful = False
 
-while True:
+while not login_successful:
     for username_attempt in range(1, 4):
         username = input("Enter username: ")
 
@@ -20,6 +21,7 @@ while True:
 
                 if result:
                     print("Login successful")
+                    login_successful = True
                     break
                 else:
                     remaining_attempts = 3 - password_attempt
@@ -43,5 +45,4 @@ while True:
         print("Please wait for 30 seconds before trying again.")
         time.sleep(30)
         continue
-    if result:
-        break
+   
